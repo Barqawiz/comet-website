@@ -1,4 +1,4 @@
-# Comet the Shiba — website
+# Comet the Shiba website
 
 The marketing site for **Comet the Shiba**, an original arcade platformer for
 iPhone and iPad. Static HTML, no build step, no dependencies. Deployed with
