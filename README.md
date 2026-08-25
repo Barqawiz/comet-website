@@ -9,7 +9,10 @@ Live: https://barqawiz.github.io/comet-website/
 ## Layout
 
 ```
-index.html            the whole site, one page
+index.html            landing page
+privacy.html          privacy policy (App Store "Privacy Policy URL")
+support.html          support, contact and FAQ (App Store "Support URL")
+terms.html            terms of use, on top of Apple's Standard EULA
 favicon.ico
 .nojekyll             tells Pages to serve the files as-is
 assets/
@@ -24,6 +27,22 @@ assets/
 
 Total weight is about 18 MB, almost all of it the five gameplay captures, and
 they only load when someone presses play.
+
+## App Store Connect URLs
+
+Once Pages is live, these are the URLs App Review asks for:
+
+| Field | URL |
+| --- | --- |
+| Marketing URL | `https://barqawiz.github.io/comet-website/` |
+| Support URL | `https://barqawiz.github.io/comet-website/support.html` |
+| Privacy Policy URL | `https://barqawiz.github.io/comet-website/privacy.html` |
+| License Agreement | Apple's Standard EULA (the default). `terms.html` supplements it. |
+
+The privacy pages describe the app as it ships today: no data collection, no ads,
+no in-app purchases, no third-party SDKs, progress stored on device only, and
+Game Center optional. Any of that changing means updating `privacy.html` and the
+effective date at the top of it.
 
 ## Publishing
 
