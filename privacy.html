@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy policy | Comet the Shiba</title>
-<meta name="description" content="Comet the Shiba collects no personal data. No accounts, no analytics, no advertising, no tracking and no third-party SDKs.">
+<meta name="description" content="Comet the Shiba collects no personal data. No accounts, no advertising, no tracking. Only anonymous gameplay analytics to see which levels need work.">
 <link rel="canonical" href="https://barqawiz.github.io/comet-website/privacy.html">
 <meta name="theme-color" content="#63AEEA">
 <link rel="icon" href="favicon.ico" sizes="any">
@@ -36,10 +36,11 @@
 <section class="page-head">
   <div class="cloud c1"></div><div class="cloud c3"></div>
   <div class="wrap">
-    <p class="stamp">Effective 25 August 2026</p>
+    <p class="stamp">Effective 28 August 2026</p>
     <h1>Privacy policy</h1>
-    <p>The short version: Comet the Shiba does not collect any personal data, and there is
-       no server on the other end to send it to.</p>
+    <p>The short version: Comet the Shiba collects no personal data. The only thing it
+       reports is anonymous gameplay analytics, so I can see which levels are too hard,
+       and none of it identifies you.</p>
   </div>
   <div class="ground"><div class="lip"></div><div class="turf"></div><div class="dirt"></div></div>
 </section>
@@ -51,9 +52,23 @@
 
     <h2>No personal data is collected</h2>
     <p>The game does not collect, store or transmit personal data. There are no accounts to
-       create, no sign-up, no email capture, no analytics, no advertising and no tracking.
-       The app's App Store privacy label is <strong>Data Not Collected</strong>, and its bundled
-       privacy manifest declares no collected data types and no tracking domains.</p>
+       create, no sign-up, no email capture, no advertising and no tracking. What it does
+       report is anonymous usage analytics, described in the next section, and nothing in
+       that data identifies you.</p>
+
+    <h2>Anonymous analytics</h2>
+    <p>The game uses Google's Firebase Analytics to report anonymous gameplay events: the
+       app was opened, a level was started, a level was finished or lost, a region was
+       completed, a pal was unlocked. Each event carries the level number or score involved,
+       plus the general device and app-version information Firebase gathers to make the
+       numbers add up (device model, iOS version, country, a random per-install identifier).</p>
+    <p>I use this for exactly one thing: seeing where players get stuck so I can make the
+       game better. It contains no name, no email, no contacts, no location beyond country,
+       and no advertising identifier: the game is built without ad-identifier support, so it
+       cannot read your IDFA even in principle. Nothing is used for advertising and nothing
+       is shared with anyone beyond Firebase processing it on my behalf, under
+       <a href="https://firebase.google.com/support/privacy">Google's Firebase privacy terms</a>.
+       The random identifier is reset if you delete the app.</p>
 
     <h2>What is stored on your device</h2>
     <p>Your progress is saved locally with Apple's standard on-device storage
@@ -74,11 +89,11 @@
        skips the leaderboard and achievements. You can sign out at any time in the iOS
        Settings app.</p>
 
-    <h2>No purchases, no ads, no third-party code</h2>
+    <h2>No purchases, no ads</h2>
     <p>There are no in-app purchases and no subscriptions, so no payment information is
-       involved anywhere. There is no advertising. The app contains no third-party SDKs,
-       analytics libraries, ad networks, attribution kits or middleware of any kind, only
-       Apple's own frameworks.</p>
+       involved anywhere. There is no advertising. The only third-party code in the app is
+       the Firebase Analytics library described above; there are no ad networks, attribution
+       kits or other middleware, and everything else is Apple's own frameworks.</p>
 
     <h2>Ratings and feedback</h2>
     <p>After finishing a region the game may ask, at most three times per install, how you
@@ -89,8 +104,9 @@
        to reply to you.</p>
 
     <h2>Children</h2>
-    <p>Comet the Shiba is rated 4+ and suitable for all ages. Because it collects no data at
-       all, it collects nothing from children either.</p>
+    <p>Comet the Shiba is rated 4+ and suitable for all ages. The game collects no personal
+       data from anyone, so it collects none from children either; the anonymous analytics
+       described above contain nothing that identifies any player, of any age.</p>
 
     <h2>This website</h2>
     <p>This site is a set of static files hosted on GitHub Pages. It sets no cookies and runs
