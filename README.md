@@ -1,8 +1,8 @@
 # Comet the Shiba website
 
 The marketing site for **Comet the Shiba**, an original arcade platformer for
-iPhone and iPad. Static HTML, no build step, no dependencies. Deployed with
-GitHub Pages.
+iPhone and iPad, free to start with a one-time unlock for the full game.
+Static HTML, no build step, no dependencies. Deployed with GitHub Pages.
 
 Live: https://barqawiz.github.io/comet-website/
 
@@ -39,10 +39,13 @@ Once Pages is live, these are the URLs App Review asks for:
 | Privacy Policy URL | `https://barqawiz.github.io/comet-website/privacy.html` |
 | License Agreement | Apple's Standard EULA (the default). `terms.html` supplements it. |
 
-The privacy pages describe the app as it ships today: no data collection, no ads,
-no in-app purchases, no third-party SDKs, progress stored on device only, and
-Game Center optional. Any of that changing means updating `privacy.html` and the
-effective date at the top of it.
+The privacy pages describe the app as it ships today (1.3): free to download,
+Levels 1 and 2 free, two optional one-time in-app purchases (Full Game and All
+Pals) handled entirely by Apple, no personal data, no ads, anonymous Firebase
+Analytics as the only third-party SDK, progress and cached purchase state stored
+on device only, and Game Center optional. Any of that changing means updating
+`privacy.html`, `terms.html` and `support.html`, and the effective dates at the
+top of the privacy and terms pages.
 
 ## Publishing
 
