@@ -16,17 +16,22 @@ terms.html            terms of use, on top of Apple's Standard EULA
 favicon.ico
 .nojekyll             tells Pages to serve the files as-is
 assets/
-  css/style.css       palette and components lifted from the game's own UI
-  js/main.js          pauses the hero loop off screen, one video at a time
+  css/style.css       one font (Figtree), one accent colour, no animation
+  js/main.js          the only script: one clip plays at a time
   img/icon.png        app icon
   img/og.jpg          social preview card (1200x630)
   img/shots/          in-game screenshots, half-res WebP
-  img/sprites/        trimmed sprites straight from the game's art masters
+  img/sprites/        trimmed sprites from the game's art masters (the three boss
+                      sprites are used on the home page, the rest are kept for reuse)
   video/              gameplay captures, H.264 1280px wide, plus WebP posters
 ```
 
 Total weight is about 18 MB, almost all of it the five gameplay captures, and
 they only load when someone presses play.
+
+The screenshots and clips were captured on an iPhone, with the sensor housing as a
+black strip on the left edge. The CSS hides it by cropping to `--capture-ratio`
+(top of `style.css`), so the image files stay untouched.
 
 ## App Store Connect URLs
 

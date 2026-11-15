@@ -1,25 +1,14 @@
-/* Small, dependency-free behaviour: keep the hero loop from playing off screen,
-   and never let two captures play at once. */
+/* The only script on the site: never let two clips play at once. */
 (function () {
   'use strict';
 
-  var hero = document.querySelector('.device video');
+  var clips = document.querySelectorAll('.reel video');
 
-  if (hero && 'IntersectionObserver' in window) {
-    new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) { hero.play().catch(function () {}); }
-        else { hero.pause(); }
+  clips.forEach(function (clip) {
+    clip.addEventListener('play', function () {
+      clips.forEach(function (other) {
+        if (other !== clip) { other.pause(); }
       });
-    }, { threshold: 0.15 }).observe(hero);
-  }
-
-  document.querySelectorAll('.reel video').forEach(function (v) {
-    v.addEventListener('play', function () {
-      document.querySelectorAll('.reel video').forEach(function (other) {
-        if (other !== v) { other.pause(); }
-      });
-      if (hero) { hero.pause(); }
     });
   });
 }());

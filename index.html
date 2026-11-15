@@ -3,21 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Comet the Shiba: a handcrafted arcade platformer for iPhone &amp; iPad</title>
-<meta name="description" content="Thirty handcrafted levels, three regions, three Warden duels and five playable dogs. An original pixel-art arcade platformer for iPhone and iPad. Free to start, no ads, no subscriptions, no accounts.">
+<title>Comet the Shiba: a pixel platformer for iPhone and iPad</title>
+<meta name="description" content="Comet the Shiba is a pixel platformer for iPhone and iPad with 30 levels in three regions, three boss duels and five dogs to play as. Free to start, no ads, no subscriptions.">
 <link rel="canonical" href="https://barqawiz.github.io/comet-website/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Comet the Shiba, a handcrafted arcade platformer">
-<meta property="og:description" content="Run, jump, stomp pests and bark down Wardens across 30 handcrafted levels. Original art, original sound, no ads. Free to start on iPhone and iPad.">
+<meta property="og:title" content="Comet the Shiba, a pixel platformer for iPhone and iPad">
+<meta property="og:description" content="Run, jump and stomp through 30 levels in three regions. Original art and sound, no ads, free to start.">
 <meta property="og:image" content="https://barqawiz.github.io/comet-website/assets/img/og.jpg">
 <meta property="og:url" content="https://barqawiz.github.io/comet-website/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#63AEEA">
+<meta name="theme-color" content="#fbf9f4">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 <script type="application/ld+json">
 {
@@ -29,7 +29,7 @@
   "operatingSystem": "iOS 17+",
   "applicationCategory": "Game",
   "author": { "@type": "Person", "name": "Barqawiz" },
-  "description": "An original handcrafted arcade platformer for iPhone and iPad: 30 levels, three regions, three boss duels and five playable dogs.",
+  "description": "An original pixel platformer for iPhone and iPad: 30 levels, three regions, three boss duels and five playable dogs.",
   "image": "https://barqawiz.github.io/comet-website/assets/img/og.jpg"
 }
 </script>
@@ -40,276 +40,180 @@
 <header class="site-head">
   <div class="wrap">
     <a class="brand" href="./">
-      <img src="assets/img/icon.png" alt="" width="38" height="38">
-      <span><b>Comet</b><span class="sub">The Shiba</span></span>
+      <img src="assets/img/icon.png" alt="" width="34" height="34">
+      <span>Comet the Shiba</span>
     </a>
     <nav class="site-nav" aria-label="Main">
-      <a href="#game">The game</a>
-      <a href="#regions">Regions</a>
-      <a href="#bosses">Duels</a>
-      <a href="#media">Media</a>
-      <a href="support.html">Support</a>
-      <a class="btn btn--navy btn--sm" href="mailto:barqawicloud@icloud.com?subject=Comet%20the%20Shiba">Contact</a>
+      <a href="./#how">How it plays</a>
+      <a href="./#regions">Regions</a>
+      <a href="./#dogs">Dogs</a>
+      <a class="keep" href="support.html">Support</a>
     </nav>
+    <a class="store" href="https://apps.apple.com/app/id6805965904">
+      <svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268c-.2-37 16.6-65 50.5-85-19-27-47.5-42-85-45-36-3-75 21-89 21-15 0-49-20-76-19-39 .6-75 23-95 58-41 71-10 176 29 234 19 28 42 59 72 58 29-1 40-19 75-19 35 0 45 19 76 18 31-1 51-28 70-56 22-32 31-63 31-65-1-1-60-23-60-90zM262 53c16-20 27-47 24-74-23 1-51 15-68 34-15 17-29 45-25 71 26 2 53-12 69-31z"/></svg>
+      <span><small>Download on the</small><b>App Store</b></span>
+    </a>
   </div>
 </header>
 
 <main id="main">
 
-<!-- ============ HERO ============ -->
 <section class="hero">
-  <div class="cloud c1"></div><div class="cloud c2"></div>
-  <div class="cloud c3"></div><div class="cloud c4"></div>
-
-  <div class="wrap hero-grid">
+  <div class="wrap">
     <div>
-      <div class="title-lockup">
-        <h1 class="comet">COMET</h1>
-        <div class="shiba">The Shiba</div>
-      </div>
-      <p class="hero-copy">
-        Thirty handcrafted levels of run, jump and stomp. Three regions, three
-        Warden duels, and one dog who just wants to get home.
-      </p>
-      <div class="hero-cta">
-        <a class="btn" href="#media">Watch it run</a>
-        <a class="btn btn--navy" href="#game">How it plays</a>
-      </div>
-      <p class="hero-note">Free to start · iPhone &amp; iPad · One-time unlock, no ads</p>
+      <h1>Comet the Shiba</h1>
+      <p class="lead">A pixel platformer for iPhone and iPad. Run, jump and stomp your way through 30 levels in three regions, and help one Shiba Inu get home.</p>
+      <a class="store lg" href="https://apps.apple.com/app/id6805965904">
+        <svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268c-.2-37 16.6-65 50.5-85-19-27-47.5-42-85-45-36-3-75 21-89 21-15 0-49-20-76-19-39 .6-75 23-95 58-41 71-10 176 29 234 19 28 42 59 72 58 29-1 40-19 75-19 35 0 45 19 76 18 31-1 51-28 70-56 22-32 31-63 31-65-1-1-60-23-60-90zM262 53c16-20 27-47 24-74-23 1-51 15-68 34-15 17-29 45-25 71 26 2 53-12 69-31z"/></svg>
+        <span><small>Download on the</small><b>App Store</b></span>
+      </a>
+      <p class="note">Free to download. Levels 1 and 2 are free, and one optional purchase unlocks the rest. No ads, no subscriptions. I made it on my own, and every sprite, sound and note is original.</p>
     </div>
-
-    <div class="device">
-      <video src="assets/video/preview-comet.mp4" poster="assets/video/preview-comet.webp"
-             autoplay muted loop playsinline preload="metadata"
-             aria-label="Gameplay of Comet running through Sunny Park"></video>
-    </div>
-  </div>
-
-  <div class="ground">
-    <div class="runner" aria-hidden="true"></div>
-    <div class="lip"></div>
-    <div class="turf"></div>
-    <div class="dirt"></div>
+    <figure class="shot">
+      <img src="assets/img/shots/01-sunny-park.webp" width="1434" height="660"
+           alt="Comet the Shiba running through Sunny Park past a checkpoint flag, with biscuits floating above a bench and a spring.">
+    </figure>
   </div>
 </section>
 
-<!-- ============ HUD STRIP ============ -->
-<section class="hud" aria-label="At a glance">
-  <div class="wrap">
-    <ul>
-      <li><img class="px" src="assets/img/sprites/checkpoint.png" alt=""><span class="stat"><b>30</b><span>Levels</span></span></li>
-      <li><img class="px" src="assets/img/sprites/biscuit-gold.png" alt=""><span class="stat"><b>3</b><span>Regions</span></span></li>
-      <li><img class="px" src="assets/img/sprites/warden.png" alt=""><span class="stat"><b>3</b><span>Boss duels</span></span></li>
-      <li><img class="px" src="assets/img/sprites/heart.png" alt=""><span class="stat"><b>5</b><span>Playable dogs</span></span></li>
-      <li><img class="px" src="assets/img/sprites/bolt.png" alt=""><span class="stat"><b>120 Hz</b><span>Custom physics</span></span></li>
-    </ul>
-  </div>
-</section>
-
-<!-- ============ FEEL ============ -->
-<section class="section section--paper" id="game">
+<section class="section" id="how">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">How it plays</p>
-      <h2>Everything lives in the jump.</h2>
-      <p>The engine is hand-written rather than a physics library, so the jump arc is the same
-         on every device and every frame. The forgiving bits are on purpose.</p>
+      <h2>How it plays</h2>
+      <p>You run with the two pads and jump with the paw button. The movement engine is custom and runs at 120 Hz, so a jump behaves the same on every device. A few details worth knowing:</p>
     </div>
-    <div class="cards">
-      <article class="card">
-        <div class="icon"><img class="px" src="assets/img/sprites/spring.png" alt=""></div>
-        <h3>Coyote time &amp; jump buffering</h3>
-        <p>Step off a ledge and you still get your jump. Press a little early into a landing and
-           it fires the moment you touch down. Missed inputs stop being why you died.</p>
-      </article>
-      <article class="card">
-        <div class="icon"><img class="px" src="assets/img/sprites/comet-jump.png" alt=""></div>
-        <h3>Variable jump height</h3>
-        <p>Tap for a hop, hold for the full 3.7-tile arc. Every gap was built against those
-           exact limits, so no jump is ever a guess.</p>
-      </article>
-      <article class="card">
-        <div class="icon"><img class="px" src="assets/img/sprites/scuttler.png" alt=""></div>
+    <div class="how">
+      <div>
+        <h3>A little forgiveness</h3>
+        <p>Step off a ledge and you still get your jump for a moment. Press jump just before you land and it fires as soon as you touch down. Missed inputs should never be why you lose.</p>
+      </div>
+      <div>
+        <h3>Tap for a hop, hold for a full jump</h3>
+        <p>A quick tap makes a small hop. Hold the button for the full arc, about 3.7 tiles high. Every gap in the game is built around those limits, so you never have to guess.</p>
+      </div>
+      <div>
         <h3>Chain your stomps</h3>
-        <p>One pest is 100 points. Land the next before you touch the ground and it doubles,
-           up to 800. The greedy route and the safe route are rarely the same route.</p>
-      </article>
-      <article class="card">
-        <div class="icon"><img class="px" src="assets/img/sprites/bolt.png" alt=""></div>
+        <p>One pest is worth 100 points. Land on the next one before you touch the ground and the score doubles, up to 800. The risky route and the safe route are rarely the same.</p>
+      </div>
+      <div>
         <h3>Zoomies</h3>
-        <p>Grab a bolt and Comet is untouchable for a few seconds. Just long enough to run
-           straight through the spikeshell that has been bullying you all level.</p>
-      </article>
-      <article class="card">
-        <div class="icon"><img class="px" src="assets/img/sprites/crumble.png" alt=""></div>
-        <h3>Hazards tell you first</h3>
-        <p>Crumble planks shake before they break. Geysers hiss before they blow. Shardlings
-           shimmer before their backs light up. Nothing here kills you without warning.</p>
-      </article>
-      <article class="card">
-        <div class="icon"><img class="px" src="assets/img/sprites/doghouse.png" alt=""></div>
-        <h3>Landscape, thumbs or keys</h3>
-        <p>Touch controls built for this game, a proper iPad layout instead of a stretched
-           phone one, and keyboard support any time you have one attached.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ============ REGIONS ============ -->
-<section class="section section--cream" id="regions" style="padding-bottom:0">
-  <div class="wrap">
-    <div class="section-head center">
-      <p class="eyebrow">The journey</p>
-      <h2>Three regions. Thirty locations. One doghouse.</h2>
-      <p>Every region brings in new hazards, keeps all the old ones, and ends at a gate
-         you have to fight your way through.</p>
-    </div>
-  </div>
-
-  <article class="region">
-    <div class="wrap region-grid">
+        <p>Grab a bolt and Comet can't be hurt for a few seconds. Just long enough to run straight through the spikeshell that has been annoying you all level.</p>
+      </div>
       <div>
-        <div class="region-tag" style="--tint:var(--greenward)">Levels 1&ndash;10</div>
-        <h3>Greenward Coast</h3>
-        <p>Sunny parks, moonlit caves and rooftop runs. Springs throw you seven tiles up,
-           planks crumble underfoot, and hoppers arc at you the moment you commit to a jump.
-           The Citadel Warden is waiting at the gate.</p>
-        <ul class="chips">
-          <li class="chip"><img class="px" src="assets/img/sprites/scuttler.png" alt="">Scuttlers</li>
-          <li class="chip"><img class="px" src="assets/img/sprites/hopper.png" alt="">Hoppers</li>
-          <li class="chip"><img class="px" src="assets/img/sprites/spikeshell.png" alt="">Spikeshells</li>
-          <li class="chip"><img class="px" src="assets/img/sprites/buzzer.png" alt="">Buzzers</li>
-        </ul>
+        <h3>Hazards warn you first</h3>
+        <p>Crumble planks shake before they fall. Geysers hiss before they erupt. Shardlings shimmer before their crystals light up. Nothing hurts you without a hint.</p>
       </div>
-      <figure class="shot" style="margin:0">
-        <img src="assets/img/shots/01-sunny-park.webp" width="1434" height="660" loading="lazy"
-             alt="Comet running through Sunny Park past a checkpoint flag, biscuits floating above a bench and a spring.">
-      </figure>
-    </div>
-  </article>
-
-  <article class="region region--flip">
-    <div class="wrap region-grid">
       <div>
-        <div class="region-tag" style="--tint:var(--amber)">Levels 11&ndash;20</div>
-        <h3>Amber Highlands</h3>
-        <p>A desert town under a wide, changing sky. Tumbleweeds roll with real gravity, off ledges,
-           into pits and straight at you, while duneswoopers circle overhead and dive at
-           wherever you happen to be standing. By level 16 the ground erupts too.</p>
-        <ul class="chips">
-          <li class="chip"><img class="px" src="assets/img/sprites/tumbleweed.png" alt="">Tumbleweeds</li>
-          <li class="chip"><img class="px" src="assets/img/sprites/swooper.png" alt="">Duneswoopers</li>
-          <li class="chip"><img class="px" src="assets/img/sprites/alpha.png" alt="">Highland Alpha</li>
-        </ul>
-      </div>
-      <figure class="shot" style="margin:0">
-        <img src="assets/img/shots/03-amber-highlands.webp" width="1434" height="660" loading="lazy"
-             alt="Comet running the rooftops of Tumbledown Town under a dusk sky, a trail of biscuits overhead and a duneswooper circling above.">
-      </figure>
-    </div>
-  </article>
-
-  <article class="region">
-    <div class="wrap region-grid">
-      <div>
-        <div class="region-tag" style="--tint:var(--starfall)">Levels 21&ndash;30</div>
-        <h3>Starfall Reach</h3>
-        <p>Frost fields under an aurora. Shardlings carry star-crystals that flare on their
-           own clock, so you can only stomp them while they are dark. Glimmermoths drift over
-           and hover just above your head. Every older hazard comes back, colder.</p>
-        <ul class="chips">
-          <li class="chip"><img class="px" src="assets/img/sprites/shardling.png" alt="">Shardlings</li>
-          <li class="chip"><img class="px" src="assets/img/sprites/glimmermoth.png" alt="">Glimmermoths</li>
-          <li class="chip"><img class="px" src="assets/img/sprites/tyrant.png" alt="">Starfall Tyrant</li>
-        </ul>
-      </div>
-      <figure class="shot" style="margin:0">
-        <img src="assets/img/shots/05-aurora-ridge.webp" width="1434" height="660" loading="lazy"
-             alt="Aurora Ridge at dusk with meteor rings in the sky and a shardling on the path ahead.">
-      </figure>
-    </div>
-  </article>
-</section>
-
-<!-- ============ BOSSES ============ -->
-<section class="section bosses" id="bosses">
-  <div class="wrap">
-    <div class="section-head center">
-      <p class="eyebrow">Region gates</p>
-      <h2 style="color:#fff">You don't out-jump a Warden. You out-bark it.</h2>
-      <p>Every region ends in a duel. A BARK button shows up, and the fight becomes a read
-         instead of a damage race.</p>
-    </div>
-
-    <div class="boss-row">
-      <div class="boss">
-        <img class="px" src="assets/img/sprites/warden.png" alt="The Citadel Warden">
-        <h3>Citadel Warden</h3>
-        <p class="hp">Greenward Coast · 3 HP</p>
-      </div>
-      <div class="boss">
-        <img class="px" src="assets/img/sprites/alpha.png" alt="The Highland Alpha">
-        <h3>Highland Alpha</h3>
-        <p class="hp">Amber Highlands · 4 HP</p>
-      </div>
-      <div class="boss">
-        <img class="px" src="assets/img/sprites/tyrant.png" alt="The Starfall Tyrant">
-        <h3>Starfall Tyrant</h3>
-        <p class="hp">Starfall Reach · Final duel</p>
-      </div>
-    </div>
-
-    <div class="steps">
-      <div class="step">
-        <h4>Face the charge</h4>
-        <p>Hold your ground and let it commit. Back off and the pattern just resets.</p>
-      </div>
-      <div class="step">
-        <h4>Bark, or sidestep</h4>
-        <p>Bark once the charge is under way and it trips. Or dodge and let it slam into the
-           arena wall, which works just as well and takes more nerve.</p>
-      </div>
-      <div class="step">
-        <h4>Stomp the head</h4>
-        <p>+200 a hit while it is stunned and +1500 when it drops. Then the gate falls and
-           the doghouse is right there.</p>
+        <h3>Touch, iPad or keyboard</h3>
+        <p>Touch controls made for this game, a proper iPad layout instead of a stretched phone one, and keyboard support whenever you have one attached.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ MEDIA ============ -->
-<section class="section section--cream" id="media">
+<section class="section section--tint" id="regions">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">In motion</p>
-      <h2>Five dogs, five routes.</h2>
-      <p>Each of the four other dogs unlocks with points you earn by playing, or get all four at
-         once with the optional All Pals pack. They all handle exactly the same. These are silent captures straight from the build, uncut.</p>
+      <h2>Three regions, thirty levels</h2>
+      <p>Every region adds new hazards, keeps the old ones, and ends with a duel at the gate.</p>
+    </div>
+    <div class="regions">
+      <article class="region">
+        <figure class="shot">
+          <img src="assets/img/shots/01-sunny-park.webp" width="1434" height="660" loading="lazy"
+               alt="Comet running through Sunny Park past a checkpoint flag, biscuits floating above a bench and a spring.">
+        </figure>
+        <p class="levels">Levels 1 to 10</p>
+        <h3>Greenward Coast</h3>
+        <p>Sunny parks, moonlit caves and rooftop runs. Springs throw you seven tiles up, planks crumble underfoot, and hoppers arc at you the moment you commit to a jump. The Citadel Warden is waiting at the gate.</p>
+        <p class="meet">Meet the scuttlers, hoppers, spikeshells and buzzers.</p>
+      </article>
+      <article class="region">
+        <figure class="shot">
+          <img src="assets/img/shots/03-amber-highlands.webp" width="1434" height="660" loading="lazy"
+               alt="Comet running the rooftops of Tumbledown Town under a dusk sky, a trail of biscuits overhead and a duneswooper circling above.">
+        </figure>
+        <p class="levels">Levels 11 to 20</p>
+        <h3>Amber Highlands</h3>
+        <p>A desert town under a wide, changing sky. Tumbleweeds roll with real gravity, off ledges, into pits and straight at you, while duneswoopers circle overhead and dive at wherever you are standing. From level 16 the ground erupts too.</p>
+        <p class="meet">Meet the tumbleweeds, duneswoopers and the Highland Alpha.</p>
+      </article>
+      <article class="region">
+        <figure class="shot">
+          <img src="assets/img/shots/05-aurora-ridge.webp" width="1434" height="660" loading="lazy"
+               alt="Aurora Ridge at dusk with meteor rings in the sky and a shardling on the path ahead.">
+        </figure>
+        <p class="levels">Levels 21 to 30</p>
+        <h3>Starfall Reach</h3>
+        <p>Frozen fields under an aurora. Shardlings carry star-crystals that flare on their own clock, so you can only stomp them while they are dark. Glimmermoths drift over and hover just above your head. Every older hazard comes back, colder.</p>
+        <p class="meet">Meet the shardlings, glimmermoths and the Starfall Tyrant.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="duels">
+  <div class="wrap duels">
+    <div>
+      <h2>The duels at each gate</h2>
+      <p>You don't win these by out-jumping the boss. A BARK button appears, and the fight becomes about reading the charge instead of trading hits.</p>
+      <ol class="steps">
+        <li><strong>Face the charge.</strong> Hold your ground and let it commit. If you back away, the pattern just resets.</li>
+        <li><strong>Bark, or sidestep.</strong> Bark once the charge is under way and it trips. Dodging so it slams into the arena wall works just as well, and takes more nerve.</li>
+        <li><strong>Stomp the head.</strong> You get 200 points a hit while it is stunned and 1500 when it drops. Then the gate falls and the doghouse is right there.</li>
+      </ol>
+    </div>
+    <div>
+      <figure class="shot">
+        <img src="assets/img/shots/06-starfall-tyrant-duel.webp" width="1434" height="660" loading="lazy"
+             alt="Comet facing the Starfall Tyrant in the Starfall Citadel, with the BARK button on screen.">
+      </figure>
+      <ul class="bosses">
+        <li><img class="px" src="assets/img/sprites/warden.png" alt=""><span><b>Citadel Warden</b>Greenward Coast, 3 HP</span></li>
+        <li><img class="px" src="assets/img/sprites/alpha.png" alt=""><span><b>Highland Alpha</b>Amber Highlands, 4 HP</span></li>
+        <li><img class="px" src="assets/img/sprites/tyrant.png" alt=""><span><b>Starfall Tyrant</b>Starfall Reach, final duel</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint" id="dogs">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Five dogs to play as</h2>
+      <p>Comet is your starter. Each of the other four unlocks with points you earn by playing, or you can get all four at once with the optional All Pals pack. They all handle exactly the same, so it only comes down to who you like. These clips are silent captures straight from the game, uncut.</p>
     </div>
     <div class="reels">
-      <figure class="reel" style="margin:0">
-        <video src="assets/video/preview-comet.mp4" poster="assets/video/preview-comet.webp" controls muted loop playsinline preload="none"></video>
-        <h4>Comet</h4><span>Shiba Inu · Starter</span>
+      <figure class="reel">
+        <video src="assets/video/preview-comet.mp4" poster="assets/video/preview-comet.webp" controls muted loop playsinline preload="none" aria-label="Gameplay with Comet"></video>
+        <figcaption><b>Comet</b><span>Shiba Inu, the starter</span></figcaption>
       </figure>
-      <figure class="reel" style="margin:0">
-        <video src="assets/video/preview-scout.mp4" poster="assets/video/preview-scout.webp" controls muted loop playsinline preload="none"></video>
-        <h4>Scout</h4><span>Beagle · 13,000 pts</span>
+      <figure class="reel">
+        <video src="assets/video/preview-scout.mp4" poster="assets/video/preview-scout.webp" controls muted loop playsinline preload="none" aria-label="Gameplay with Scout"></video>
+        <figcaption><b>Scout</b><span>Beagle, 13,000 points</span></figcaption>
       </figure>
-      <figure class="reel" style="margin:0">
-        <video src="assets/video/preview-nova.mp4" poster="assets/video/preview-nova.webp" controls muted loop playsinline preload="none"></video>
-        <h4>Nova</h4><span>Siberian Husky · 23,000 pts</span>
+      <figure class="reel">
+        <video src="assets/video/preview-nova.mp4" poster="assets/video/preview-nova.webp" controls muted loop playsinline preload="none" aria-label="Gameplay with Nova"></video>
+        <figcaption><b>Nova</b><span>Siberian Husky, 23,000 points</span></figcaption>
       </figure>
-      <figure class="reel" style="margin:0">
-        <video src="assets/video/preview-pogo.mp4" poster="assets/video/preview-pogo.webp" controls muted loop playsinline preload="none"></video>
-        <h4>Pogo</h4><span>Dalmatian · 55,000 pts</span>
+      <figure class="reel">
+        <video src="assets/video/preview-pogo.mp4" poster="assets/video/preview-pogo.webp" controls muted loop playsinline preload="none" aria-label="Gameplay with Pogo"></video>
+        <figcaption><b>Pogo</b><span>Dalmatian, 55,000 points</span></figcaption>
       </figure>
-      <figure class="reel" style="margin:0">
-        <video src="assets/video/preview-rook.mp4" poster="assets/video/preview-rook.webp" controls muted loop playsinline preload="none"></video>
-        <h4>Rook</h4><span>Rottweiler · 70,000 pts</span>
+      <figure class="reel">
+        <video src="assets/video/preview-rook.mp4" poster="assets/video/preview-rook.webp" controls muted loop playsinline preload="none" aria-label="Gameplay with Rook"></video>
+        <figcaption><b>Rook</b><span>Rottweiler, 70,000 points</span></figcaption>
       </figure>
     </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap">
+   <div class="about">
+    <h2>Made by one person</h2>
+    <p>If you hit a bug, find a level unfair, or just want to say hello, write to me at <a href="mailto:barqawicloud@icloud.com?subject=Comet%20the%20Shiba">barqawicloud@icloud.com</a>. It reaches me directly, and level geometry has been retuned from player reports before, so that kind of feedback is welcome. Answers to the common questions are on the <a href="support.html">support page</a>.</p>
+   </div>
   </div>
 </section>
 
@@ -317,29 +221,14 @@
 
 <footer class="site-foot">
   <div class="wrap">
-    <div class="foot-brand">
-      <img src="assets/img/icon.png" alt="" width="56" height="56">
-      <div>
-        <b>Comet the Shiba</b>
-        <p style="margin:4px 0 0;font-size:.92rem">An original arcade platformer for iPhone and iPad,
-           built solo. Every sprite, sound and note in it is mine.</p>
-      </div>
-    </div>
-    <div>
-      <h4>Explore</h4>
-      <a href="#game">How it plays</a>
-      <a href="#regions">Regions</a>
-      <a href="#bosses">Boss duels</a>
-      <a href="#media">Video</a>
-    </div>
-    <div>
-      <h4>Support &amp; legal</h4>
-      <a href="support.html">Support &amp; contact</a>
+    <p><b>Comet the Shiba</b> is an original pixel platformer for iPhone and iPad, built solo. Every sprite, sound and note in it is mine.</p>
+    <nav aria-label="Footer">
+      <a href="support.html">Support</a>
       <a href="privacy.html">Privacy policy</a>
       <a href="terms.html">Terms of use</a>
       <a href="mailto:barqawicloud@icloud.com">barqawicloud@icloud.com</a>
-    </div>
-    <p class="fine">© 2026 Barqawiz. Comet the Shiba, its characters and its artwork are original works.</p>
+    </nav>
+    <p class="fine">&copy; 2026 Barqawiz. Comet the Shiba, its characters and its artwork are original works.</p>
   </div>
 </footer>
 
